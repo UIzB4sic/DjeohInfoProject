@@ -18,7 +18,5 @@ public class AnimatedUnit extends Unit {
 		y=ypos;
 		
 	}
-	public void move(float deltax, float deltay){
-		
-	}
+
 }

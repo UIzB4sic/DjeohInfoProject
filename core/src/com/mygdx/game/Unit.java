@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 
 public class Unit {
 
-	protected float x,y, height, width;
+	 float x,y, height, width;
 	
 	public Unit(float xpos, float ypos) {
 		//myTexture= new Texture(Gdx.files.internal(textureFile));
@@ -19,10 +19,10 @@ public class Unit {
 		//myTexture= new Texture(Gdx.files.internal(textureFile)
 		
 	}
-	public void move(float newx, float newy)
+	public void move(float deltax, float deltay)
 	{
-		x=newx;
-		y=newy;		
+		x+=deltax;
+		y+=deltay;		
 	}
 	public boolean isVisible(){
 		return false;
@@ -34,4 +34,5 @@ public class Unit {
 	public void withdraw(){
 		
 	}
+
 }

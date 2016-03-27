@@ -16,14 +16,17 @@ public class Character extends AnimatedUnit {
 	}
 	public void jump()
 	{
-		
+		velo_y=4;
 	}
 	public boolean isGrouded(){
 
 		return false;
 	}
-	public TextureRegion render(float time){
-		return myAnim.getKeyFrame(time,true);
+	public TextureRegion render(float AnimTime){
+		return myAnim.getKeyFrame(AnimTime,true);
 	}
-	
+	public void move(){
+		x+=velo_x;
+		y+=velo_y;
+	}
 }
