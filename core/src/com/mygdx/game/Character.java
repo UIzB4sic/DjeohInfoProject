@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 
 public class Character extends AnimatedUnit {
 	float velo_x, velo_y;
+	boolean isGrounded = true;
 	public Character(String textureAtlas, float xpos, float ypos) {
 		super(textureAtlas,xpos,ypos); 		
 	}
@@ -16,9 +17,9 @@ public class Character extends AnimatedUnit {
 	}
 	public void jump()
 	{
-		velo_y=4;
+		velo_y=5;
 	}
-	public boolean isGrouded(){
+	public boolean isGrounded(){
 
 		return false;
 	}
@@ -29,4 +30,5 @@ public class Character extends AnimatedUnit {
 		x+=velo_x;
 		y+=velo_y;
 	}
+	
 }

@@ -20,7 +20,15 @@ public class GameController {
 		character.move();
         camera.position.set(character.x+750, 400, 0);
 		character.velo_x=0;character.velo_y=0;
+		if (!character.isGrounded){
+			character.velo_y=-2; //idéalement il faudrait intégrer une équation de mouvement pour avoir une réelle sensation de chute, mais bon, oh, débug.
+		}
+	
+		if (character.y==315){
+			character.isGrounded=true; //machin machin s'il est au niveau du sol, alors isgrounded est vrai
+		}
 	}
+	
 	public void manageControlls(){
 		if(Gdx.input.isKeyPressed(Input.Keys.LEFT)){
      	   
@@ -36,7 +44,10 @@ public class GameController {
 
 	    }
 	    if(Gdx.input.isKeyPressed(Input.Keys.SPACE)){
-    		character.jump();
+	    	//il faudrait un timer empêchant de  sauter deux fois trop rapprochées OU PLUTÔT arriver à lui faire reconnaître qu'il est sur le sol et pas avec ma méthode bancale.
+	    		character.jump();
+	    		character.isGrounded=false;
+	    	
 
     }
 	}
