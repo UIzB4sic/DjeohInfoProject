@@ -17,7 +17,7 @@ public class Character extends AnimatedUnit {
 	}
 	public void jump()
 	{
-		velo_y=5;
+		velo_y=30;
 	}
 	public boolean isGrounded(){
 
