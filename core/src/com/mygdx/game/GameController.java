@@ -18,6 +18,7 @@ public class GameController {
 
 	public void update(){
 		character.move();
+		character.moveHitbox();
         camera.position.set(character.x+750, 400, 0);
 		character.velo_x=0;character.velo_y=0;
 		
@@ -28,6 +29,7 @@ public class GameController {
 		if (character.y==315){
 			character.isGrounded=true; //machin machin s'il est au niveau du sol, alors isgrounded est vrai
 		}
+		
 	}
 	
 	public void manageControlls(){

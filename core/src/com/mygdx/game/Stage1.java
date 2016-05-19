@@ -35,6 +35,7 @@ public class Stage1 extends ApplicationAdapter  {
 	        djeoh = new Character("data/texture.atlas.txt",0,0);
 	        units[0]= djeoh;
 	        djeoh.move(0, 315);
+	        djeoh.hitbox= new Hitbox(0,315,112,60);
 
 
 	        mapStage1= new Map("niveau1.tmx");

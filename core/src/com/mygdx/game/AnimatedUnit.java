@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.math.Rectangle;
 
 public class AnimatedUnit extends Unit {
 	protected Animation myAnim;
@@ -16,7 +17,8 @@ public class AnimatedUnit extends Unit {
 		myAnim= new Animation(1/16f, myTextureAtlas.getRegions());
 		x=xpos;
 		y=ypos;
-		
+
 	}
+
 
 }

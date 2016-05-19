@@ -4,10 +4,13 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.math.Rectangle;
 
 public class Character extends AnimatedUnit {
 	float velo_x, velo_y;
 	boolean isGrounded = true;
+	public Hitbox hitbox;
+	
 	public Character(String textureAtlas, float xpos, float ypos) {
 		super(textureAtlas,xpos,ypos); 		
 	}
@@ -15,6 +18,9 @@ public class Character extends AnimatedUnit {
 	{
 		
 	}
+	
+			
+			
 	public void jump()
 	{
 		velo_y=30;
@@ -29,6 +35,10 @@ public class Character extends AnimatedUnit {
 	public void move(){
 		x+=velo_x;
 		y+=velo_y;
+	}
+	
+	public void moveHitbox(){
+		hitbox.move(velo_x, velo_y);
 	}
 	
 }
