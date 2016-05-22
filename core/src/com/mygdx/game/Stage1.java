@@ -42,8 +42,8 @@ public class Stage1 extends ApplicationAdapter  {
 	        units[1]=enemy;
 	        enemy.move(315, 315);
 	        
-	        
-
+	        sb.begin();
+	        sb.end();
 
 	        mapStage1= new Map("niveau1.tmx");
 	        tiledMapRenderer = new OrthogonalTiledMapRenderer(mapStage1.tiledMap);
@@ -68,13 +68,11 @@ public class Stage1 extends ApplicationAdapter  {
 	        
 	       	game.manageControlls();
 	       	game.update();
-	        camera.update();
 	        tiledMapRenderer.setView(camera);
 	        tiledMapRenderer.render();
 	        sb.begin();
-	        sb.draw(djeoh.render(game.animTime),djeoh.x,djeoh.y);
-	        sb.draw(enemy.render(game.animTime),djeoh.x,djeoh.y);
-
+	        sb.draw(djeoh.render(game.animTime),50,djeoh.y);
+	        camera.update();
 	        sb.end();
 	    }
 

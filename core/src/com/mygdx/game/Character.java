@@ -9,7 +9,6 @@ import com.badlogic.gdx.math.Rectangle;
 public class Character extends AnimatedUnit {
 	float velo_x, velo_y;
 	public Hitbox hitbox;
-	public boolean isGrounded=true;
 	
 	public Character(String textureAtlas, float xpos, float ypos) {
 		super(textureAtlas,xpos,ypos);
@@ -30,9 +29,12 @@ public class Character extends AnimatedUnit {
 		velo_y=30;
 	}
 	public boolean isGrounded(){
-
-		return false;
-	}
+		if(this.y>=315) {
+			return false;
+		}
+		else
+			return true;
+			}
 	public TextureRegion render(float AnimTime){
 		return myAnim.getKeyFrame(AnimTime,true);
 	}
