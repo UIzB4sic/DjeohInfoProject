@@ -1,0 +1,61 @@
+enemy.atlas.png
+size: 42, 190
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ennemis vol-1 (glissées)
+  rotate: false
+  xy: 1, 142
+  size: 38, 47
+  orig: 80, 80
+  offset: 18, 14
+  index: -1
+ennemis vol-2 (glissées)
+  rotate: false
+  xy: 1, 96
+  size: 39, 44
+  orig: 80, 80
+  offset: 18, 21
+  index: -1
+ennemis vol-3 (glissées)
+  rotate: false
+  xy: 1, 47
+  size: 39, 47
+  orig: 80, 80
+  offset: 18, 23
+  index: -1
+ennemis vol-4 (glissées)
+  rotate: false
+  xy: 1, 47
+  size: 39, 47
+  orig: 80, 80
+  offset: 18, 26
+  index: -1
+ennemis vol-5 (glissées)
+  rotate: false
+  xy: 1, 1
+  size: 40, 44
+  orig: 80, 80
+  offset: 18, 29
+  index: -1
+ennemis vol-6 (glissées)
+  rotate: false
+  xy: 1, 47
+  size: 39, 47
+  orig: 80, 80
+  offset: 18, 26
+  index: -1
+ennemis vol-7 (glissées)
+  rotate: false
+  xy: 1, 47
+  size: 39, 47
+  orig: 80, 80
+  offset: 18, 23
+  index: -1
+ennemis vol-8 (glissées)
+  rotate: false
+  xy: 1, 96
+  size: 39, 44
+  orig: 80, 80
+  offset: 18, 21
+  index: -1
