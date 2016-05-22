@@ -33,9 +33,11 @@ public class Character extends AnimatedUnit {
 
 		return false;
 	}
+	
 	public TextureRegion render(float AnimTime){
 		return myAnim.getKeyFrame(AnimTime,true);
 	}
+	
 	public void move(){
 		x+=velo_x;
 		y+=velo_y;
