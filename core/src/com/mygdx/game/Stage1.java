@@ -27,7 +27,6 @@ public class Stage1 extends ApplicationAdapter  {
 	    private Map mapStage1;
 	    private Character djeoh;
 	    private Enemy enemy;
-	    private Enemy enemy2;
 	    private Unit[] units = new Unit[10];
 	    public static TextureAtlas djeohAtlas;
 
@@ -41,14 +40,8 @@ public class Stage1 extends ApplicationAdapter  {
 	        
 	        enemy = new Enemy("data/enemy.atlas.txt",0,0);
 	        units[1]=enemy;
-	        enemy.move(515, 315);
+	        enemy.move(3950, 375);
 	        
-	        enemy2=new Enemy("data/enemy.atlas.txt",0,0);
-	        units[2]=enemy2;
-	        enemy2.move(650,315);
-	        
-	        
-
 
 	        mapStage1= new Map("niveau1.tmx");
 	        tiledMapRenderer = new OrthogonalTiledMapRenderer(mapStage1.tiledMap);
@@ -78,12 +71,11 @@ public class Stage1 extends ApplicationAdapter  {
 	        tiledMapRenderer.setView(camera);
 	        tiledMapRenderer.render();
 	        sb.begin();
-	        sb.draw(djeoh.render(game.animTime),djeoh.x,djeoh.y);
-	        sb.draw(enemy.render(game.animTime),enemy.x,enemy.y);
-	        sb.draw(enemy2.render(game.animTime),enemy2.x-djeoh.x,enemy2.y);
+	        sb.draw(djeoh.render(game.animTime),50,djeoh.y);
+	        sb.draw(enemy.render(game.animTime),enemy.x-djeoh.x,enemy.y);
 	        camera.update();
 
-	        
+	       
 	        sb.end();
 	    }
 	    

@@ -22,12 +22,12 @@ public class GameController {
         camera.position.set(character.x+800, 400, 0);
 		character.velo_x=0;character.velo_y=0;
 		
-		if (!character.isGrounded && character.y>=315){
-			character.velo_y=-4; //idéalement il faudrait intégrer une équation de mouvement pour avoir une réelle sensation de chute, mais bon, oh, débug.
+		if (!character.isGrounded()) {
+			character.velo_y=-3; //idéalement il faudrait intégrer une équation de mouvement pour avoir une réelle sensation de chute, mais bon, oh, débug.
 		}
 	
 		if (character.y==315){
-			character.isGrounded=true; //machin machin s'il est au niveau du sol, alors isgrounded est vrai
+			character.velo_y=0; //machin machin s'il est au niveau du sol, alors isgrounded est vrai
 		}
 		
 	}
@@ -42,15 +42,13 @@ public class GameController {
 
 	    if(Gdx.input.isKeyPressed(Input.Keys.RIGHT)){
 	    		
-	      	   	character.velo_x=2; // Ce sera le truc à changer pour augmenter la difficulté des niveaux suivants, en parallèle avec la vitesse avec laquelle il saute.
+	      	   	character.velo_x=4; // Ce sera le truc à changer pour augmenter la difficulté des niveaux suivants, en parallèle avec la vitesse avec laquelle il saute.
 	       	  animTime+=Gdx.graphics.getDeltaTime();
 
 	    }
-	    if(Gdx.input.isKeyPressed(Input.Keys.SPACE) && character.y<=415){
-	    	//il faudrait un timer empêchant de  sauter deux fois trop rapprochées OU PLUTÔT arriver à lui faire reconnaître qu'il est sur le sol et pas avec ma méthode bancale.
-	    		if(character.y<=700){
-	    		character.jump();
-	    		character.isGrounded=false;
+	    if(Gdx.input.isKeyPressed(Input.Keys.SPACE)){
+	    		if(character.isGrounded() || character.y<=415){
+	    			character.jump();
 	    		}
 
     }
