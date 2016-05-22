@@ -11,6 +11,7 @@ public class AnimatedUnit extends Unit {
 	protected Animation myAnim;
 	protected int animState; // 0:static 1:rest 2:in movement
 	protected TextureAtlas myTextureAtlas;
+	public Hitbox hitbox;
 	public AnimatedUnit(String textureAtlas, float xpos, float ypos) {
 		super(xpos,ypos); 
 		myTextureAtlas= new TextureAtlas(Gdx.files.internal(textureAtlas));

@@ -12,11 +12,15 @@ public class Character extends AnimatedUnit {
 	public Hitbox hitbox;
 	
 	public Character(String textureAtlas, float xpos, float ypos) {
-		super(textureAtlas,xpos,ypos); 		
+		super(textureAtlas,xpos,ypos);
+		this.hitbox=new Hitbox(xpos, ypos, 10,10);
 	}
 	public void interact(Unit unit)
+	
 	{
-		
+		if(this.hitbox.intersects(this.hitbox)){
+			System.out.println("ennemi détecté");
+		}
 	}
 	
 			

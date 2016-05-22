@@ -26,6 +26,9 @@ public class Stage1 extends ApplicationAdapter  {
 	    private GameController game;
 	    private Map mapStage1;
 	    private Character djeoh;
+	    private Hitbox hitboxDjeoh;
+	    private Enemy enemy;
+	    private Hitbox hitboxEnemy;
 	    private Unit[] units = new Unit[10];
 	    public static TextureAtlas djeohAtlas;
 
@@ -35,7 +38,12 @@ public class Stage1 extends ApplicationAdapter  {
 	        djeoh = new Character("data/texture.atlas.txt",0,0);
 	        units[0]= djeoh;
 	        djeoh.move(0, 315);
-	        djeoh.hitbox= new Hitbox(0,315,112,60);
+	        
+	        enemy = new Enemy("data/texture.atlas.txt",0,0);
+	        units[1]=enemy;
+	        enemy.move(315, 315);
+	        
+	        
 
 
 	        mapStage1= new Map("niveau1.tmx");

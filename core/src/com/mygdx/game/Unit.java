@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 public class Unit {
 
 	 float x,y, height, width;
+	//public Hitbox hitbox;
 	
 	public Unit(float xpos, float ypos) {
 		//myTexture= new Texture(Gdx.files.internal(textureFile));
