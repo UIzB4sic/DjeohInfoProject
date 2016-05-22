@@ -8,8 +8,8 @@ import com.badlogic.gdx.math.Rectangle;
 
 public class Character extends AnimatedUnit {
 	float velo_x, velo_y;
-	boolean isGrounded = true;
 	public Hitbox hitbox;
+	public boolean isGrounded=true;
 	
 	public Character(String textureAtlas, float xpos, float ypos) {
 		super(textureAtlas,xpos,ypos);

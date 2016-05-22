@@ -14,7 +14,9 @@ public class Enemy extends AnimatedUnit {
 	public Enemy(String textureAtlas, float xpos, float ypos) {
 		super(textureAtlas,xpos,ypos); 		
 	}
-	
+	public TextureRegion render(float AnimTime){
+		return myAnim.getKeyFrame(AnimTime,true);
+	}
 	/**
 	public void interact(Unit unit)
 	{

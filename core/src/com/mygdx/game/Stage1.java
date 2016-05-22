@@ -26,9 +26,7 @@ public class Stage1 extends ApplicationAdapter  {
 	    private GameController game;
 	    private Map mapStage1;
 	    private Character djeoh;
-	    private Hitbox hitboxDjeoh;
 	    private Enemy enemy;
-	    private Hitbox hitboxEnemy;
 	    private Unit[] units = new Unit[10];
 	    public static TextureAtlas djeohAtlas;
 
@@ -39,11 +37,10 @@ public class Stage1 extends ApplicationAdapter  {
 	        units[0]= djeoh;
 	        djeoh.move(0, 315);
 	        
-	       /** 
+	        
 	        enemy = new Enemy("data/enemy.atlas.txt",0,0);
 	        units[1]=enemy;
 	        enemy.move(315, 315);
-	        **/
 	        
 	        
 
@@ -76,6 +73,8 @@ public class Stage1 extends ApplicationAdapter  {
 	        tiledMapRenderer.render();
 	        sb.begin();
 	        sb.draw(djeoh.render(game.animTime),djeoh.x,djeoh.y);
+	        sb.draw(enemy.render(game.animTime),djeoh.x,djeoh.y);
+
 	        sb.end();
 	    }
 
