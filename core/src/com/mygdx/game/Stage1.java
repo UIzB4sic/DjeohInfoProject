@@ -42,8 +42,6 @@ public class Stage1 extends ApplicationAdapter  {
 	        units[1]=enemy;
 	        enemy.move(315, 315);
 	        
-	        sb.begin();
-	        sb.end();
 
 	        mapStage1= new Map("niveau1.tmx");
 	        tiledMapRenderer = new OrthogonalTiledMapRenderer(mapStage1.tiledMap);
