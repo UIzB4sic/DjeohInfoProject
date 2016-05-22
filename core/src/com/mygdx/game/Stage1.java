@@ -26,9 +26,8 @@ public class Stage1 extends ApplicationAdapter  {
 	    private GameController game;
 	    private Map mapStage1;
 	    private Character djeoh;
-	    private Hitbox hitboxDjeoh;
 	    private Enemy enemy;
-	    private Hitbox hitboxEnemy;
+	    private Enemy enemy2;
 	    private Unit[] units = new Unit[10];
 	    public static TextureAtlas djeohAtlas;
 
@@ -42,8 +41,11 @@ public class Stage1 extends ApplicationAdapter  {
 	        
 	        enemy = new Enemy("data/enemy.atlas.txt",0,0);
 	        units[1]=enemy;
-	        enemy.move(400, 315);
+	        enemy.move(515, 315);
 	        
+	        enemy2=new Enemy("data/enemy.atlas.txt",0,0);
+	        units[2]=enemy2;
+	        enemy2.move(650,315);
 	        
 	        
 
@@ -54,6 +56,7 @@ public class Stage1 extends ApplicationAdapter  {
 	        camera = new OrthographicCamera();
 	        camera.setToOrtho(false,w,h);
 	        game = new GameController(mapStage1,camera,djeoh);
+	        
 
 	    }
 	    @Override
@@ -61,6 +64,7 @@ public class Stage1 extends ApplicationAdapter  {
 	        sb.dispose();
 
 	    }
+	    
 	    
 	    @Override
 	    public void render () {
@@ -71,13 +75,18 @@ public class Stage1 extends ApplicationAdapter  {
 	        
 	       	game.manageControlls();
 	       	game.update();
-	        camera.update();
 	        tiledMapRenderer.setView(camera);
 	        tiledMapRenderer.render();
 	        sb.begin();
 	        sb.draw(djeoh.render(game.animTime),djeoh.x,djeoh.y);
+	        sb.draw(enemy.render(game.animTime),enemy.x,enemy.y);
+	        sb.draw(enemy2.render(game.animTime),enemy2.x-djeoh.x,enemy2.y);
+	        camera.update();
+
+	        
 	        sb.end();
 	    }
+	    
 
 	
 	   

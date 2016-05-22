@@ -19,7 +19,7 @@ public class GameController {
 	public void update(){
 		character.move();
 		character.moveHitbox();
-        camera.position.set(character.x+750, 400, 0);
+        camera.position.set(character.x+800, 400, 0);
 		character.velo_x=0;character.velo_y=0;
 		
 		if (!character.isGrounded && character.y>=315){

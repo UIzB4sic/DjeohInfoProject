@@ -2,127 +2,116 @@
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="10" tilewidth="80" tileheight="80" nextobjectid="1">
  <tileset firstgid="1" name="tile set" tilewidth="1920" tileheight="800" tilecount="18" columns="0">
   <tile id="0">
-   <image width="80" height="80" source="Decors/text_pierre_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_pierre_01.png"/>
   </tile>
   <tile id="1">
-   <image width="80" height="80" source="Decors/text_pierre_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_pierre_02.png"/>
   </tile>
   <tile id="2">
-   <image width="80" height="80" source="Decors/text_sol_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_01.png"/>
   </tile>
   <tile id="3">
-   <image width="80" height="80" source="Decors/text_sol_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_02.png"/>
   </tile>
   <tile id="4">
-   <image width="80" height="80" source="Decors/text_sol_03.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_03.png"/>
   </tile>
   <tile id="5">
-   <image width="80" height="80" source="Decors/text_sol_04.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_04.png"/>
   </tile>
   <tile id="6">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_buisson_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_buisson_01.png"/>
   </tile>
   <tile id="7">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_eau_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_eau_01.png"/>
   </tile>
   <tile id="8">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_eau_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_eau_02.png"/>
   </tile>
   <tile id="9">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_01.png"/>
   </tile>
   <tile id="10">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_02.png"/>
   </tile>
   <tile id="11">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_03.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_03.png"/>
   </tile>
   <tile id="12">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_04.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_04.png"/>
   </tile>
   <tile id="13">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_05.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_05.png"/>
   </tile>
   <tile id="14">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_06.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_06.png"/>
   </tile>
   <tile id="15">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_pierre_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_pierre_01.png"/>
   </tile>
   <tile id="16">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_pierre_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_pierre_02.png"/>
   </tile>
   <tile id="17">
-   <image width="1920" height="800" source="../../../Downloads/12874082_248531615490098_944952500_o.jpg"/>
+   <image width="1920" height="800" source="../../Downloads/12874082_248531615490098_944952500_o.jpg"/>
   </tile>
  </tileset>
  <tileset firstgid="19" name="tileset2" tilewidth="80" tileheight="80" tilecount="17" columns="0">
   <tile id="0">
-   <image width="80" height="80" source="Decors/text_pierre_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_pierre_01.png"/>
   </tile>
   <tile id="1">
-   <image width="80" height="80" source="Decors/text_pierre_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_pierre_02.png"/>
   </tile>
   <tile id="2">
-   <image width="80" height="80" source="Decors/text_sol_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_01.png"/>
   </tile>
   <tile id="3">
-   <image width="80" height="80" source="Decors/text_sol_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_02.png"/>
   </tile>
   <tile id="4">
-   <image width="80" height="80" source="Decors/text_sol_03.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_03.png"/>
   </tile>
   <tile id="5">
-   <image width="80" height="80" source="Decors/text_sol_04.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/text_sol_04.png"/>
   </tile>
   <tile id="6">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_buisson_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_buisson_01.png"/>
   </tile>
   <tile id="7">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_eau_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_eau_01.png"/>
   </tile>
   <tile id="8">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_eau_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_eau_02.png"/>
   </tile>
   <tile id="9">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_01.png"/>
   </tile>
   <tile id="10">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_02.png"/>
   </tile>
   <tile id="11">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_03.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_03.png"/>
   </tile>
   <tile id="12">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_04.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_04.png"/>
   </tile>
   <tile id="13">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_05.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_05.png"/>
   </tile>
   <tile id="14">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_ile_06.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_ile_06.png"/>
   </tile>
   <tile id="15">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_pierre_01.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_pierre_01.png"/>
   </tile>
   <tile id="16">
-   <image width="80" height="80" source="Decors/Niveau 1 - Lac/text_pierre_02.png"/>
+   <image width="80" height="80" source="../core/assets/Decors/Niveau 1 - Lac/text_pierre_02.png"/>
   </tile>
  </tileset>
- <layer name="fond" width="80" height="10">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0
-</data>
- </layer>
+ <imagelayer name="bg" offsetx="-14.0252" offsety="0">
+  <image source="back.png"/>
+ </imagelayer>
  <layer name="fixe" width="80" height="10">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -137,7 +126,7 @@
 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
 </data>
  </layer>
- <layer name="Calque 2" width="80" height="10">
+ <layer name="Calque 2" width="80" height="10" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

@@ -12,7 +12,12 @@ public class Enemy extends AnimatedUnit {
 	public Hitbox hitbox;
 	
 	public Enemy(String textureAtlas, float xpos, float ypos) {
-		super(textureAtlas,xpos,ypos); 		
+		super(textureAtlas,xpos,ypos);
+		this.hitbox=new Hitbox(xpos, ypos, 10,10);
+	}
+	
+	public TextureRegion render(float AnimTime){
+		return myAnim.getKeyFrame(AnimTime,true);
 	}
 	
 	/**
@@ -22,10 +27,10 @@ public class Enemy extends AnimatedUnit {
 			System.out.println("ennemi détecté");
 		}
 	}
-	
+	**/
 			
 	public void moveHitbox(){
 		hitbox.move(velo_x, velo_y);
 	}
-	**/
+	
 }
