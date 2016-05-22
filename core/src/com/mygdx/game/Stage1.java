@@ -39,9 +39,11 @@ public class Stage1 extends ApplicationAdapter  {
 	        units[0]= djeoh;
 	        djeoh.move(0, 315);
 	        
-	        enemy = new Enemy("data/texture.atlas.txt",0,0);
+	        /**
+	        enemy = new Enemy("data/enemy.atlas.txt",0,0);
 	        units[1]=enemy;
 	        enemy.move(315, 315);
+	        **/
 	        
 	        
 
